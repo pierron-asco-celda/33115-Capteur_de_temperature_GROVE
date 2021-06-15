@@ -2,7 +2,7 @@
 
 Capteur de température GROVE [33115](https://www.pierron.fr/interface-arduino-uno-5952.html)
 
-<div style="text-align: justify">Le capteur de température V1.1 utilise une thermistance pour détecter la température ambiante. La résistance d’une thermistance augmentera lorsque la température ambiante diminuera. C’est cette caractéristique que nous utilisons pour calculer la température ambiante. La portée détectable de ce capteur est de -40 - 125°C, et la précision est de ±1,5°C.</div>
+<div style="text-align: justify">Le capteur de température V1.1 utilise une thermistance pour détecter la température ambiante. La résistance d’une thermistance augmentera lorsque la température ambiante diminuera. C’est cette caractéristique que nous utilisons pour calculer la température ambiante. La portée détectable de ce capteur est de -40 à +125 °C avec une précision de ±1,5 °C.</div>
 
 Caractéristiques techniques :
 - Alimentation : 3,3 à 5 V
@@ -12,7 +12,7 @@ Caractéristiques techniques :
 ![L-33115](/img/L-33115.jpg)
 
 # Usage :
-Pour l’utilisation de ce module référez-vous aux indications présentes sur le circuit imprimé GROVE.
+Pour l’utilisation de ce module, référez-vous aux indications présentes sur le circuit imprimé GROVE.
 
 # Schémas :
 
