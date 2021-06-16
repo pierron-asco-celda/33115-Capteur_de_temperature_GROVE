@@ -40,8 +40,8 @@ Ressource utilisation : [NCP18WF104F03RC](https://github.com/pierron-asco-celda/
 
 #include <math.h>
 
-const int B = 4275;
-const int R0 = 100000;
+const int B = 4275; // cf. datasheet
+const int R0 = 100000; // cf. datasheet SCH GROVE
 const int pinTempSensor = A0;
 
 #if defined(ARDUINO_ARCH_AVR)
@@ -62,7 +62,7 @@ void loop() {
   float R = 1023.0 / a - 1.0;
   R = R0 * R;
 
-  float temperature = 1.0 / (log(R / R0) / B + 1 / 298.15) - 273.15;
+  float temperature = 1.0 / (log(R / R0) / B + 1 / 298.15) - 273.15; // cf. datasheet conversion en degré Celsius 
 
   Serial.print("Temperature = ");
   Serial.print(temperature);
